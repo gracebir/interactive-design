@@ -1,10 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+import InteractivePage from './components/InteractivePage';
+
+const Container = styled.div``;
 
 function App() {
   return (
-    <div>
-      <h1>interactive forum app</h1>
-    </div>
+    <Container>
+      <InteractivePage/>
+    </Container>
   );
 }
 

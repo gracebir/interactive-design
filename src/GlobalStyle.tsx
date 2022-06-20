@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body{
         font-family: 'Rubik', sans-serif;
+        background-color: var(--light-gray);
     }
 
     p{
